@@ -1,6 +1,7 @@
 # Motores1_Act1_VGG
 
 Puedes disfrutar y probar el videojuego a traves del siguiente enlace:
+https://vgonzalezgomez.itch.io/motores1-act1-vgg-laberinto
 
 Pasos a seguir después de descargar el fichero zip:
 
