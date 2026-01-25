@@ -17,8 +17,7 @@ public class IntroBotonAceptar : MonoBehaviour
         //Cambiamos de escena
         SceneManager.LoadScene("Laberinto");
         
-        
-        
+               
     }
     
     
