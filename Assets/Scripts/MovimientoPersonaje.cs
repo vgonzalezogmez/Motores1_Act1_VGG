@@ -36,9 +36,7 @@ public class MovimientoPersonaje : MonoBehaviour
     {
 
         moviemiento();
-                
-
-        
+                   
     }
 
 
