@@ -5,20 +5,18 @@ public class activadorTrampa1 : MonoBehaviour
 
     [SerializeField] GameObject toActivate;
     [SerializeField] VidaPlayer vida;
-    
+    public Animator animatortrampa;
     private bool trampaactivada= false;
 
     public void OnTriggerEnter(Collider other)
     {
-        Debug.Log("se activa la trampa y su estado es:" + trampaactivada);
         if ( trampaactivada==false)
         {
             
             if (other.tag =="Player")
             {
-                Debug.Log("trampa detectada");
                 toActivate.SetActive(true);
-                vida.recibirDaño();
+                animatortrampa.SetBool("estaDentro", true); 
 
                 Vector3 pushdirection = -other.transform.forward;
                 
@@ -29,8 +27,8 @@ public class activadorTrampa1 : MonoBehaviour
                 }
 
                 trampaactivada=true;
-                Collider trampa = GetComponent<Collider>();
-                trampa.isTrigger=false;
+                Collider trampa1 = GetComponent<Collider>();
+                trampa1.isTrigger=false;
                 
             }
             
