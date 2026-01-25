@@ -5,11 +5,14 @@ TagManager:
   serializedVersion: 3
   tags:
   - floor
+  - buttonDoorB
+  - Trampa
+  - trampa
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - botonpuerta
   - Water
   - UI
   - 
