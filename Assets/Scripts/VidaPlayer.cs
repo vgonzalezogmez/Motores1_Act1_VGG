@@ -4,6 +4,7 @@ using System.Linq;
 //using Microsoft.Unity.VisualStudio.Editor;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class VidaPlayer : MonoBehaviour
@@ -65,7 +66,7 @@ public class VidaPlayer : MonoBehaviour
 
     private void gameover()
     {
-        // mostrar canva de game over y reiniciar laberinto
+        SceneManager.LoadScene("GameOver");
     }
 
 

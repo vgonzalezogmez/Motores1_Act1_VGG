@@ -8,6 +8,7 @@ TagManager:
   - buttonDoorB
   - Trampa
   - trampa
+  - exit
   layers:
   - Default
   - TransparentFX
