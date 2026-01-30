@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class activadorTrampa1 : MonoBehaviour
@@ -7,6 +8,7 @@ public class activadorTrampa1 : MonoBehaviour
     [SerializeField] VidaPlayer vida;
     public Animator animatortrampa;
     private bool trampaactivada= false;
+   
 
     public void OnTriggerEnter(Collider other)
     {
@@ -28,15 +30,15 @@ public class activadorTrampa1 : MonoBehaviour
 
                 trampaactivada=true;
                 Collider trampa1 = GetComponent<Collider>();
+
                 trampa1.isTrigger=false;
-                
-            }
-            
+            }                
             
         }    
               
     }
 
+    
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
