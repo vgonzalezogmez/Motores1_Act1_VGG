@@ -16,5 +16,5 @@ Controls:
 AWSD or keywoard arrows
 
 ​Enjoy!!
-<img width="921" height="736" alt="image" src="https://github.com/user-attachments/assets/1d8205bc-1879-42b8-abe0-859a130e6cd0" />
+
 
