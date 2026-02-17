@@ -17,6 +17,7 @@ public class activadorTrampa1 : MonoBehaviour
             
             if (other.tag =="Player")
             {
+                
                 toActivate.SetActive(true);
                 animatortrampa.SetBool("estaDentro", true); 
 

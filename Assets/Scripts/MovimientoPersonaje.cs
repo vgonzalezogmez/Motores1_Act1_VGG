@@ -23,7 +23,7 @@ public class MovimientoPersonaje : MonoBehaviour
         controller = GetComponent<CharacterController>();
     }
        
-    
+    //
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

@@ -18,6 +18,7 @@ public class DetectDoor : MonoBehaviour
         {
             open.ActivateCanvas(false);
         }
+        
         Vector3 dir = transform.position -transform.forward;
         dir.Normalize();
         RaycastHit[] raycastHit = Physics.SphereCastAll(transform.position, 0.5f, transform.forward,1f, lm);

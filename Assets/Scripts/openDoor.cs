@@ -23,7 +23,7 @@ public Animator animatorDoor;
         detectedCanvas.gameObject.SetActive(inVision);
 
     }
-
+//
     public void openDoorPushingE ()
     {
         animatorDoor.SetBool("estaDentro", true); 
